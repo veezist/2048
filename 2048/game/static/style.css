@@ -1,0 +1,83 @@
+body{
+    background-color: #FF4D4D;
+}
+
+p{
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+#wynik{
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+#rozmiar-tytul{
+    margin-left: -50px;
+    padding-left: 50%;
+}
+
+#rozmiar-tytul{
+    float: left;
+    margin-top: 0px;
+}
+
+#rozmiar{
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+#canvas{
+    background-color: burlywood;
+}
+
+#canvas-block{
+    margin-left: -250px;
+    padding-left: 50%;
+}
+
+text {
+  font-family: sans-serif;
+
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+
+  -webkit-animation: draw 8s forwards;
+     -moz-animation: draw 8s forwards;
+       -o-animation: draw 8s forwards;
+      -ms-animation: draw 8s forwards;
+          animation: draw 8s forwards;
+}
+
+@-webkit-keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@-moz-keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@-o-keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@-ms-keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}

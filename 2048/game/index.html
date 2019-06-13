@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="icon.ico">
+  <meta charset="UTF-8">
+  <link href="static/style.css" rel="stylesheet">
+  <title>2048</title>
+</head>
+<body>
+  <svg id="tekst" width="1000" height="100">
+  <text x="530" y="80" fill="none" stroke="black" stroke-width="1" font-size="110">2048</text>
+</svg>
+  <p id="wynik"></p>
+  <div id="rozmiar-blok">
+    <p id="rozmiar-tytul">Rozmiar : </p>
+    <input id="rozmiar" type="number" value="4">
+    <input id="zmien-rozmiar" type="button" value="Ok"style="margin-right: 10px">
+	 <input id="odswiez" type="button" value="Reload" style="margin-left: 45px">
+    <div class="clear"></div>
+  </div>
+  <div id="canvas-block">
+    <canvas id="canvas" width="500" height="500">
+	
+	</canvas>
+	
+  </div>
+  <script src="static/script.js"></script>
+  
+  
+</body>
+</html>
